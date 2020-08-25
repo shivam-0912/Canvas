@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Drawing App
+        </title>
+       <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/start/jquery-ui.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="heading">
+                Draw & Enjoy
+            </div>
+            <div class="inputs">
+                <div id="paintcolor">
+                <input type="color" list id="color">
+                </div>
+                <div id="circlecontain">
+                <div id="paintcircle">
+
+                </div>
+                </div>
+                <div id="slider">
+
+                </div>
+
+            </div>
+            <div class="canvascontain">
+                <canvas id="canvas" height="400px" width="500px">
+
+                </canvas>
+            </div>
+            <div class="buttons">
+                <button id="erase">Erase</button>
+                <button id="save">Save</button>
+                <button id="reset">Reset</button>
+            </div>
+
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+       <script src="code.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    </body>
+</html>

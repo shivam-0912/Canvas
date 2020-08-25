@@ -1,0 +1,72 @@
+body{
+    
+    text-align: center;
+    background: url(images/paintbg.jpg)  ;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.heading{
+    text-align: center;
+    font-size: 50px;
+    width: 500px;
+    height: 80px;
+    color: white;
+    line-height: 70px;
+    margin: 0 auto;
+    background: linear-gradient(white,rgb(112, 231, 101),#65B5E7);
+}
+#paintcolor{
+    margin-top:10px ;
+}
+#circlecontain{
+    height: 40px;
+    width: 40px;
+    margin: 0 auto;
+    
+}
+#paintcircle{
+    line-height: 40px;
+    height: 3px;
+    width: 3px;
+    background-color: black;
+    margin: 10px auto;
+    border-radius: 100%;
+    
+}
+#slider{
+    margin: 0 auto;
+    
+    width: 200px;
+
+}
+.canvascontain{
+    margin: 20px auto;
+    height: 400px;
+    width: 500px;
+}
+#canvas{
+    margin: 0 auto;
+    border: solid 2px #65B5E7 ;
+    
+    background-color: white;
+    cursor: crosshair;
+    
+}
+
+.buttons button{
+    position: relative;
+    padding: 5px 0px;
+    margin-right: 50px;
+    width: 80px;
+    background-color: white;
+    color: #54D8DD;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 3px rgba(0,0,0,0.5);
+}
+.buttons button:hover{
+    background: linear-gradient(white,rgb(112, 231, 101),#65B5E7);
+    color: white;
+    box-shadow: none;
+}
